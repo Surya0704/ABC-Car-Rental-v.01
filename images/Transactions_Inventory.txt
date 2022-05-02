@@ -1,0 +1,22 @@
+Current Date: Jan 1, 2013
+ 
+Pick up Date: Jan 23, 2013
+Return Date: Feb 2, 2013 = Days: 0
+Full Name: Tony Strak
+Age: 38
+Location: California
+Contact: 5353533535
+Car: Van-2009
+Total Rent Price: 0.00 
+--------------------------------------------------
+Current Date: Jan 1, 2013
+ 
+Pick up Date: Feb 2, 2020
+Return Date: Feb 5, 2020 = Days: 3
+Full Name: John Abraham
+Age: 37
+Location:  Bombay
+Contact: 8187145256
+Car: Taxi-2002
+Total Rent Price: 750.00 
+--------------------------------------------------
