@@ -15,7 +15,7 @@ public class WarningCustomer extends JFrame{
 		warningP = new JPanel(null);
 		warningP.setBackground(Color.WHITE);
 		
-		ImageIcon warningImage = new ImageIcon("../images/warning_icon.GIF");
+		ImageIcon warningImage = new ImageIcon("D:\\\\\\\\CAPGEMINI TRAINING\\\\\\\\PROJECT\\\\\\\\\\\\\\\\ABC Car Rental\\\\\\\\/images/warning_icon.GIF");
 		iconL = new JLabel(warningImage);
 		iconL.setBounds(20, 35, 50, 50);
 		warningP.add(iconL);
