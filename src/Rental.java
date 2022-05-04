@@ -11,7 +11,7 @@ public class Rental{
   public static void main(String[] args) {
 
     JFrame frame = new RentalView();
-    ImageIcon img = new ImageIcon("\"D:\\CAPGEMINI TRAINING\\PROJECT\\RENTAL_MANAGEMENT_SYSTEM_IN_JAVA_WITH_SOURCE_CODE\\ABC Car Rental\\/images/logo_1.GIF");
+    ImageIcon img = new ImageIcon("\"D:\\CAPGEMINI TRAINING\\PROJECT\\ABC Car Rental\\/images/logo_1.GIF");
     frame.setIconImage(img.getImage());
     frame.setTitle("ABC Car Rental v.01");
     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
