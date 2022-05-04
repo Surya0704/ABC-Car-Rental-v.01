@@ -1,2 +1,2 @@
 # ABC-Car-Rental-v.01
-Extract the Images file in the the D:/Capgemini Training/Project
+Extract the files in the location:-  D:/Capgemini Training/Project/ABC Car Rental
