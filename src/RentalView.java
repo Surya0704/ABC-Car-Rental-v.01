@@ -49,7 +49,7 @@ public class RentalView extends JFrame{
 		mainP = new JPanel(null);
 		mainP.setBackground(Color.WHITE);
 		
-	    ImageIcon titleImage = new ImageIcon("D:\\\\CAPGEMINI TRAINING\\\\PROJECT\\\\RENTAL_MANAGEMENT_SYSTEM_IN_JAVA_WITH_SOURCE_CODE\\\\ABC Car Rental\\/images/logo_1.GIF");
+	    ImageIcon titleImage = new ImageIcon("D:\\\\CAPGEMINI TRAINING\\\\PROJECT\\\\\\\\ABC Car Rental\\/images/logo_1.GIF");
 		titleL = new JLabel(titleImage);
 		titleL.setBounds(30, 40, 310, 300);
 		mainP.add(titleL);
@@ -77,7 +77,7 @@ public class RentalView extends JFrame{
 		mainP.add(cYCB);
 	
 	//------------------------------------BUTTONS to go reserve section
-		ImageIcon mainNextImage = new ImageIcon("D:\\\\CAPGEMINI TRAINING\\\\PROJECT\\\\RENTAL_MANAGEMENT_SYSTEM_IN_JAVA_WITH_SOURCE_CODE\\\\Romy Car Rental\\/images/next.GIF");
+		ImageIcon mainNextImage = new ImageIcon("D:\\\\CAPGEMINI TRAINING\\\\PROJECT\\\\\\\\ABC Car Rental\\/images/next.GIF");
 		mainNextB = new JButton(mainNextImage);
 		mainNextB.setBackground(Color.WHITE);
 		mainNextB.addActionListener(new mainNextButton());
@@ -184,7 +184,7 @@ public class RentalView extends JFrame{
 		
 	//--------------------------------------BUTTONS
 	//-----------------------------------------------to go customer section
-		ImageIcon dateNextImage = new ImageIcon("D:\\\\CAPGEMINI TRAINING\\\\PROJECT\\\\RENTAL_MANAGEMENT_SYSTEM_IN_JAVA_WITH_SOURCE_CODE\\\\Romy Car Rental\\/images/customer.GIF");
+		ImageIcon dateNextImage = new ImageIcon("D:\\\\CAPGEMINI TRAINING\\\\PROJECT\\\\\\\\ABC Car Rental\\/images/customer.GIF");
 		reserveNextB = new JButton(dateNextImage);
 		reserveNextB.setBackground(Color.WHITE);
 		reserveNextB.addActionListener(new reserveNextButton());
@@ -194,7 +194,7 @@ public class RentalView extends JFrame{
 	
 	//---------------------------------------------------to go back welcome section
 		//ImageIcon dateNextImage = new ImageIcon("../images/Arrow-Right-icon.GIF");
-		ImageIcon dateBackImage = new ImageIcon("D:\\\\CAPGEMINI TRAINING\\\\PROJECT\\\\RENTAL_MANAGEMENT_SYSTEM_IN_JAVA_WITH_SOURCE_CODE\\\\Romy Car Rental\\/images/back.GIF");
+		ImageIcon dateBackImage = new ImageIcon("D:\\\\CAPGEMINI TRAINING\\\\PROJECT\\\\\\\\ABC Car Rental\\/images/back.GIF");
 		reserveBackB = new JButton(dateBackImage);
 		reserveBackB.setBackground(Color.WHITE);
 		reserveBackB.setBounds(330, 300, 100, 50);
@@ -335,7 +335,7 @@ public class RentalView extends JFrame{
 
 	//-------------------------------------------BUTTONS for customer
 	//----------------------------------------------to go pick a car section
-		ImageIcon customerNextImage = new ImageIcon("D:\\CAPGEMINI TRAINING\\PROJECT\\RENTAL_MANAGEMENT_SYSTEM_IN_JAVA_WITH_SOURCE_CODE\\Romy Car Rental\\images\\car.GIF");
+		ImageIcon customerNextImage = new ImageIcon("D:\\CAPGEMINI TRAINING\\PROJECT\\\\ABC Car Rental\\images\\car.GIF");
 		customerNextB = new JButton(customerNextImage);
 		customerNextB.setBackground(Color.WHITE);
 		customerNextB.setBounds(460, 300, 100, 50);
@@ -348,7 +348,7 @@ public class RentalView extends JFrame{
 	
 	//--------------------------------------------to go back reserve section
 		//ImageIcon datenext = new ImageIcon("../images/Arrow-Right-icon.GIF");
-		ImageIcon customerBackImage = new ImageIcon("D:\\\\CAPGEMINI TRAINING\\\\PROJECT\\\\RENTAL_MANAGEMENT_SYSTEM_IN_JAVA_WITH_SOURCE_CODE\\\\Romy Car Rental\\/images/customer_back.GIF");
+		ImageIcon customerBackImage = new ImageIcon("D:\\\\CAPGEMINI TRAINING\\\\PROJECT\\\\\\\\ABC Car Rental\\/images/customer_back.GIF");
 		customerBackB = new JButton(customerBackImage);
 		customerBackB.setBackground(Color.WHITE);
 		customerBackB.setBounds(330, 300, 100, 50);
@@ -379,7 +379,7 @@ public class RentalView extends JFrame{
 	//------------------------------------BUTTONS for pick a car
 	//---------------------------------------------------------Pick Car Buttton]
 	//-------------------------------------first car button
-		ImageIcon firstCarImage = new ImageIcon("D:\\\\CAPGEMINI TRAINING\\\\PROJECT\\\\RENTAL_MANAGEMENT_SYSTEM_IN_JAVA_WITH_SOURCE_CODE\\\\Romy Car Rental\\/images/van.GIF");
+		ImageIcon firstCarImage = new ImageIcon("D:\\\\CAPGEMINI TRAINING\\\\PROJECT\\\\\\\\ABC Car Rental\\/images/van.GIF");
 		firstCarB = new JButton(firstCarImage);
 		firstCarB.setBackground(Color.WHITE);
 		firstCarB.addActionListener(new firstCarButton());
@@ -390,7 +390,7 @@ public class RentalView extends JFrame{
 		carP.add(firstCarB);
 	
 	//---------------------------------second car button
-		ImageIcon secondCarImage = new ImageIcon("D:\\\\CAPGEMINI TRAINING\\\\PROJECT\\\\RENTAL_MANAGEMENT_SYSTEM_IN_JAVA_WITH_SOURCE_CODE\\\\Romy Car Rental\\/images/pickup.GIF");
+		ImageIcon secondCarImage = new ImageIcon("D:\\\\CAPGEMINI TRAINING\\\\PROJECT\\\\\\\\ABC Car Rental\\/images/pickup.GIF");
 		secondCarB = new JButton(secondCarImage);
 		secondCarB.setBackground(Color.WHITE);
 		secondCarB.addActionListener(new secondCarButton());
@@ -401,7 +401,7 @@ public class RentalView extends JFrame{
 		carP.add(secondCarB);
 		
 	//---------------------------------------third car button
-		ImageIcon thirdCarImage = new ImageIcon("D:\\\\CAPGEMINI TRAINING\\\\PROJECT\\\\RENTAL_MANAGEMENT_SYSTEM_IN_JAVA_WITH_SOURCE_CODE\\\\Romy Car Rental\\/images/jeepney.GIF");
+		ImageIcon thirdCarImage = new ImageIcon("D:\\\\CAPGEMINI TRAINING\\\\PROJECT\\\\\\\\ABC Car Rental\\/images/jeepney.GIF");
 		thirdCarB = new JButton(thirdCarImage);
 		thirdCarB.setBackground(Color.WHITE);
 		thirdCarB.addActionListener(new thirdCarButton());
@@ -412,7 +412,7 @@ public class RentalView extends JFrame{
 		carP.add(thirdCarB);
 	
 	//------------------------------------------forth car button
-		ImageIcon forthCarImage = new ImageIcon("D:\\\\CAPGEMINI TRAINING\\\\PROJECT\\\\RENTAL_MANAGEMENT_SYSTEM_IN_JAVA_WITH_SOURCE_CODE\\\\Romy Car Rental\\/images/limousine.GIF");
+		ImageIcon forthCarImage = new ImageIcon("D:\\\\CAPGEMINI TRAINING\\\\PROJECT\\\\\\\\ABC Car Rental\\/images/limousine.GIF");
 		forthCarB = new JButton(forthCarImage);
 		forthCarB.setBackground(Color.WHITE);
 		forthCarB.addActionListener(new forthCarButton());
@@ -423,7 +423,7 @@ public class RentalView extends JFrame{
 		carP.add(forthCarB);
 		
 	//-------------------------------------------------to go receipt section (Final step)
-		ImageIcon carNextImage = new ImageIcon("D:\\\\CAPGEMINI TRAINING\\\\PROJECT\\\\RENTAL_MANAGEMENT_SYSTEM_IN_JAVA_WITH_SOURCE_CODE\\\\Romy Car Rental\\/images/submit.GIF");
+		ImageIcon carNextImage = new ImageIcon("D:\\\\CAPGEMINI TRAINING\\\\PROJECT\\\\\\\\ABC Car Rental\\/images/submit.GIF");
 		carNextB = new JButton(carNextImage);
 		carNextB.setBackground(Color.WHITE);
 		carNextB.setBounds(460, 300, 100, 50);
@@ -434,7 +434,7 @@ public class RentalView extends JFrame{
 		carP.add(carNextB);
 		
 	//--------------------------------------------------------------------to go back customer section
-		ImageIcon carBackImage = new ImageIcon("D:\\\\CAPGEMINI TRAINING\\\\PROJECT\\\\RENTAL_MANAGEMENT_SYSTEM_IN_JAVA_WITH_SOURCE_CODE\\\\Romy Car Rental\\/images/car_back.GIF");
+		ImageIcon carBackImage = new ImageIcon("D:\\\\CAPGEMINI TRAINING\\\\PROJECT\\\\\\\\ABC Car Rental\\/images/car_back.GIF");
 		carBackB = new JButton(carBackImage);
 		carBackB.setBackground(Color.WHITE);
 		carBackB.addActionListener(new carBackButton());
@@ -540,7 +540,7 @@ public class RentalView extends JFrame{
 				else { //pop up window for warning to customer
 					if(openWarningReserve == null){
 						openWarningReserve = new WarningReserve();
-						ImageIcon warningReserveImage = new ImageIcon("D:\\\\CAPGEMINI TRAINING\\\\PROJECT\\\\RENTAL_MANAGEMENT_SYSTEM_IN_JAVA_WITH_SOURCE_CODE\\\\Romy Car Rental\\/images/warning_top_icon.GIF");
+						ImageIcon warningReserveImage = new ImageIcon("D:\\\\CAPGEMINI TRAINING\\\\PROJECT\\\\\\\\ABC Car Rental\\/images/warning_top_icon.GIF");
 						openWarningReserve.setIconImage(warningReserveImage.getImage());
 						openWarningReserve.setTitle("WARNING !!");
 						openWarningReserve.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
@@ -662,7 +662,7 @@ public class RentalView extends JFrame{
 				else { //if invalid, pop out window for warning
 					if(openWarningCustomer == null){
 						openWarningCustomer = new WarningCustomer();
-						ImageIcon warningCustomerImage = new ImageIcon("D:\\\\CAPGEMINI TRAINING\\\\PROJECT\\\\RENTAL_MANAGEMENT_SYSTEM_IN_JAVA_WITH_SOURCE_CODE\\\\Romy Car Rental\\/images/warning_top_icon.GIF");
+						ImageIcon warningCustomerImage = new ImageIcon("D:\\\\CAPGEMINI TRAINING\\\\PROJECT\\\\\\\\ABC Car Rental\\/images/warning_top_icon.GIF");
 						openWarningCustomer.setIconImage(warningCustomerImage.getImage());
 						openWarningCustomer.setTitle("WARNING INVALID!!");
 						openWarningCustomer.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
@@ -795,7 +795,7 @@ public class RentalView extends JFrame{
 			else { //if customer havent yet pick a car, show's the warning information 
 				if(openWarningCar == null){
 					openWarningCar = new WarningCar();
-					ImageIcon warningCarImage = new ImageIcon("D:\\\\CAPGEMINI TRAINING\\\\PROJECT\\\\RENTAL_MANAGEMENT_SYSTEM_IN_JAVA_WITH_SOURCE_CODE\\\\Romy Car Rental\\/images/warning_top_icon.GIF");
+					ImageIcon warningCarImage = new ImageIcon("D:\\\\CAPGEMINI TRAINING\\\\PROJECT\\\\\\\\ABC Car Rental\\/images/warning_top_icon.GIF");
 					openWarningCar.setIconImage(warningCarImage.getImage());
 					openWarningCar.setTitle("WARNING INVALID!!");
 					openWarningCar.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
