@@ -15,7 +15,7 @@ public class WarningReserve extends JFrame{
 		warningP = new JPanel(null);
 		warningP.setBackground(Color.WHITE);
 		
-		ImageIcon warningImage = new ImageIcon("D:\\\\CAPGEMINI TRAINING\\\\PROJECT\\\\RENTAL_MANAGEMENT_SYSTEM_IN_JAVA_WITH_SOURCE_CODE\\\\Romy Car Rental\\\\/images/warning_icon.GIF");
+		ImageIcon warningImage = new ImageIcon("D:\\\\CAPGEMINI TRAINING\\\\PROJECT\\\\\\\\ABC Car Rental\\\\/images/warning_icon.GIF");
 		iconL = new JLabel(warningImage);
 		iconL.setBounds(20, 35, 50, 50);
 		warningP.add(iconL);
