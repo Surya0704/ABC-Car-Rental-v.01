@@ -49,7 +49,7 @@ public class RentalView extends JFrame{
 		mainP = new JPanel(null);
 		mainP.setBackground(Color.WHITE);
 		
-	    ImageIcon titleImage = new ImageIcon("D:\\\\CAPGEMINI TRAINING\\\\PROJECT\\\\RENTAL_MANAGEMENT_SYSTEM_IN_JAVA_WITH_SOURCE_CODE\\\\Romy Car Rental\\/images/logo_1.GIF");
+	    ImageIcon titleImage = new ImageIcon("D:\\\\CAPGEMINI TRAINING\\\\PROJECT\\\\RENTAL_MANAGEMENT_SYSTEM_IN_JAVA_WITH_SOURCE_CODE\\\\ABC Car Rental\\/images/logo_1.GIF");
 		titleL = new JLabel(titleImage);
 		titleL.setBounds(30, 40, 310, 300);
 		mainP.add(titleL);
